@@ -7,5 +7,6 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
+    mapFunctions(arr);
     console.log(`Example app listening on port ${port}`)
 })
