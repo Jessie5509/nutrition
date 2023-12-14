@@ -1,8 +1,12 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 export const Home = () => {
     return (
-        <div className='text-5xl font-bold min-h[80vh]'>Home</div>
+        <div className='text-5xl font-bold min-h-screen bg-home'>
+            <NavBar />
+            Home
+        </div>
     )
 }
 
