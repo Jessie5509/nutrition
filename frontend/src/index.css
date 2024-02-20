@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 .about-ts {
-  text-shadow: 1px 2px 1px white;
+  text-shadow: 1px 1px 2px #bdbdbd;
 }
 
 .nav-ts {
@@ -27,4 +27,160 @@ code {
 
 .card-ts {
   text-shadow: 1px 2px 1px #000;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.t {
+  text-wrap: pretty;
+  animation: appear 1.2s ease forwards;
+}
+
+.tx-over {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+#card-wrapper {
+  background-image: url(https://images.unsplash.com/photo-1504472893907-7f577b7c9beb?ixlib=rb-0.3.5&s=3e5168084ad03cb653101983430f6686&auto=format&fit=crop&w=634&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30dvw;
+  height: 76.5dvh;
+  color: black;
+  box-shadow: 5px 5px 15px;
+  font-family: "Abril Fatface", cursive;
+  margin-top: 50px;
+}
+
+.card-flip {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card-flip .card-front,
+.card-flip .card-back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.card-flip .card-back {
+  transform: rotateY(180deg);
+}
+
+.card-flip.flipped {
+  transform: rotateY(180deg);
+}
+
+.inner-card {
+  padding: 2em;
+}
+
+.more-info-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.btn-background {
+  background: white;
+  padding: 0.9em;
+  border-radius: 50%;
+  font-size: 20px;
+  color: black;
+}
+
+.start-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.start-btn button {
+  background: white;
+  color: black;
+  padding: 0.6em;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0.5px 1px 5px;
+  text-decoration: none;
+}
+
+.start-btn .fas {
+  margin-left: 10px;
+}
+.steps {
+  width: 23dvw;
+  height: 20dvh;
+  white-space: pre-wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 95%;
+  height: 65dvh;
+  margin: 0 auto;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card {
+  min-width: 300px;
+  padding: 20px;
+  margin: 0 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prev,
+.next {
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: black;
+}
+
+.prev {
+  left: 10dvw;
+}
+
+.next {
+  right: 10dvw;
+}
+
+input,
+textarea {
+  width: 41dvw;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+input:focus,
+textarea:focus {
+  border: 1px solid rgb(114, 114, 114);
+  outline: none;
 }

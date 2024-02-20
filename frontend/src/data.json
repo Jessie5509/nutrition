@@ -1,0 +1,165 @@
+{
+  "recipes": [
+    {
+      "title": "Eggplant Parmesan",
+      "directions": [
+        "Preheat oven to 375°F (190°C).",
+        "Slice eggplant and season with salt.",
+        "Coat slices in flour, egg, and breadcrumbs.",
+        "Bake for 25-30 minutes, or until golden brown.",
+        "Top with marinara sauce and cheese.",
+        "Bake for an additional 10 minutes, or until cheese is melted and bubbly."
+      ],
+      "ingredients": [
+        "1 large eggplant",
+        "Salt",
+        "Flour",
+        "2 eggs, beaten",
+        "Breadcrumbs",
+        "Marinara sauce",
+        "Shredded mozzarella cheese"
+      ],
+      "image": "images/Eggplant-Parmesan.jpg",
+      "level": "Medium",
+      "time": "45 min",
+      "rating": 4
+    },
+    {
+      "title": "Mango Salsa",
+      "directions": [
+        "Dice mango, red bell pepper, onion, and cilantro.",
+        "Combine in a bowl with lime juice and salt.",
+        "Stir well to combine.",
+        "Refrigerate for at least 30 minutes before serving."
+      ],
+      "ingredients": [
+        "2 ripe mangoes",
+        "1 red bell pepper",
+        "1/2 red onion",
+        "2 tbsp chopped cilantro",
+        "Juice of 1 lime",
+        "Salt to taste"
+      ],
+      "image": "images/mango-salsa.jpg",
+      "level": "Easy",
+      "time": "15 min",
+      "rating": 5
+    },
+    {
+      "title": "Turkey and Vegetable Soup",
+      "directions": [
+        "In a large pot, heat olive oil over medium heat.",
+        "Add chopped onion, carrots, and celery. Cook until softened.",
+        "Stir in diced tomatoes, turkey broth, shredded turkey, and spices.",
+        "Simmer for 20-25 minutes, or until vegetables are tender.",
+        "Serve hot, garnished with chopped parsley."
+      ],
+      "ingredients": [
+        "2 tbsp olive oil",
+        "1 onion, chopped",
+        "2 carrots, chopped",
+        "2 celery stalks, chopped",
+        "1 can diced tomatoes",
+        "4 cups turkey broth",
+        "2 cups shredded cooked turkey",
+        "Spices (such as thyme, rosemary, salt, and pepper)",
+        "Chopped parsley for garnish"
+      ],
+      "image": "images/turkey-soup.jpg",
+      "level": "Medium",
+      "time": "35 min",
+      "rating": 4
+    },
+    {
+      "title": "Caprese Salad",
+      "directions": [
+        "Slice tomatoes and fresh mozzarella cheese.",
+        "Arrange tomato and mozzarella slices on a plate, alternating.",
+        "Drizzle with balsamic glaze and olive oil.",
+        "Season with salt, pepper, and fresh basil leaves.",
+        "Serve immediately as a refreshing appetizer."
+      ],
+      "ingredients": [
+        "2 large tomatoes",
+        "8 oz fresh mozzarella cheese",
+        "Balsamic glaze",
+        "Extra virgin olive oil",
+        "Salt and pepper to taste",
+        "Fresh basil leaves for garnish"
+      ],
+      "image": "images/Caprese-salad.png",
+      "level": "Easy",
+      "time": "10 min",
+      "rating": 5
+    },
+    {
+      "title": "Vegetable Stir-Fry",
+      "directions": [
+        "Heat oil in a wok or large skillet over high heat.",
+        "Add sliced bell peppers, broccoli florets, and snap peas.",
+        "Stir-fry for 2-3 minutes, or until vegetables are tender-crisp.",
+        "Season with soy sauce and sesame oil.",
+        "Serve hot over cooked rice."
+      ],
+      "ingredients": [
+        "2 bell peppers, sliced",
+        "1 cup broccoli florets",
+        "1 cup snap peas",
+        "2 tbsp vegetable oil",
+        "2 tbsp soy sauce",
+        "1 tsp sesame oil",
+        "Cooked rice for serving"
+      ],
+      "image": "images/vegetable_stir_fry.jpg",
+      "level": "Medium",
+      "time": "15 min",
+      "rating": 4
+    },
+    {
+      "title": "Banana Oatmeal Pancakes",
+      "directions": [
+        "In a blender, combine bananas, oats, milk, eggs, and cinnamon.",
+        "Blend until smooth.",
+        "Pour pancake batter onto a hot griddle or skillet.",
+        "Cook until bubbles form on the surface, then flip and cook until golden brown.",
+        "Serve hot with maple syrup and sliced bananas."
+      ],
+      "ingredients": [
+        "2 ripe bananas",
+        "1 cup rolled oats",
+        "1/2 cup milk",
+        "2 eggs",
+        "1 tsp cinnamon",
+        "Maple syrup and sliced bananas for serving"
+      ],
+      "image": "images/banana-pancakes.jpg",
+      "level": "Easy",
+      "time": "20 min",
+      "rating": 5
+    },
+    {
+      "title": "Mediterranean Chickpea Salad",
+      "directions": [
+        "In a large bowl, combine cooked chickpeas, diced cucumber, cherry tomatoes, chopped red onion, and chopped parsley.",
+        "Drizzle with olive oil and lemon juice.",
+        "Season with salt, pepper, and a pinch of dried oregano.",
+        "Toss gently to combine.",
+        "Serve chilled as a refreshing side dish or light meal."
+      ],
+      "ingredients": [
+        "2 cans (15 oz each) chickpeas, drained and rinsed",
+        "1 cucumber, diced",
+        "1 cup cherry tomatoes, halved",
+        "1/2 red onion, chopped",
+        "1/4 cup chopped fresh parsley",
+        "2 tablespoons olive oil",
+        "Juice of 1 lemon",
+        "Salt and pepper to taste",
+        "Pinch of dried oregano"
+      ],
+      "image": "images/mediterranean-chickpea-salad.jpg",
+      "level": "Easy",
+      "time": "15 min"
+    }
+  ]
+}
